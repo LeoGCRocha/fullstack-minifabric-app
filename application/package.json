@@ -1,0 +1,15 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "Project Generic Example Application",
+  "main": "main",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Leonardo Rocha",
+  "license": "ISC",
+  "dependencies": {
+    "fabric-ca-client": "^2.2.2",
+    "fabric-network": "^2.2.2"
+  }
+}

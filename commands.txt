@@ -1,0 +1,2 @@
+./minifab up -n genericExample
+./minifab invoke -n genericExample -p '"Input", "12345", "Leonardo Rocha"'

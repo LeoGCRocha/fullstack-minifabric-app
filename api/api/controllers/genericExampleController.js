@@ -29,7 +29,7 @@ module.exports = () => {
         })
         // MINIFABRIC FUNCTION
         try {
-
+            exec(`sh ${path.resolve(__dirname, '..', 'minifabric', 'minifabric.sh')}`, {stdio: []})
         } catch (error) {
             return next(res.status(400).json({
                 "message": "Cannot resolve the route.",
